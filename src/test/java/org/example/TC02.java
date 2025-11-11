@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class TC02 {
 
     @Test
-    @Description("Verify the title of THETestingAcademy Website.")
+    @Description("Verify the title of Google Website.")
     public void vwoLogin(){
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com/");
