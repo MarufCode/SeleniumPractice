@@ -3,25 +3,17 @@ package org.example.Selenium;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.annotations.Test;
 
-import java.io.File;
-
-public class Sel02 {
-
-    @Test
-    public void testMethod(){
-        // Extension to edge Browser
-        // Ad blocker extension
-        // Selenium ?
+public class Sel04 {
+    public static void main(String[] args) {
 
 
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--load-extension=C:/Users/Maruf.sherikar.EXT.SVKMGRP/Downloads/AdBlock-2");
+        options.addArguments("--start-maximized");
         WebDriver driver = new ChromeDriver(options);
         driver.get("https://youtube.com");
-
-
+        System.out.println(driver.getTitle());
+        driver.close();
 
 
     }
