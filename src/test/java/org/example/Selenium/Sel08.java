@@ -11,9 +11,7 @@ import org.testng.annotations.Test;
 public class Sel08 {
 
 
-        // Open app.vwo.com
-        // print the title and get the current url
-        // verify the current url is app.vwo.com
+
 
     @Test()
     @Owner("Maruf")
