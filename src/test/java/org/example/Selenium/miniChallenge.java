@@ -1,6 +1,7 @@
 package org.example.Selenium;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,7 +13,8 @@ import org.testng.annotations.Test;
 public class miniChallenge {
 
     @Test
-    @Description()
+    @Owner("Maruf")
+    @Description("Verify the error message should display for invalid credentials")
     public void testChallenge()  {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
