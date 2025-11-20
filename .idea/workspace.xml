@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ff72820-346c-4a0b-ac46-4f7b4da0ea7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Selenium/Sel09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Selenium/katalon_App_Challenge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Selenium/miniChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Selenium/miniChallenge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,12 +63,13 @@
     "TestNG.Sel09.testAnchorTag.executor": "Run",
     "TestNG.Sel09.testmethod.executor": "Run",
     "TestNG.TC02.vwoLogin.executor": "Run",
+    "TestNG.katalon_Challenge.test_Login.executor": "Run",
     "TestNG.miniChalenge.testChallenge.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Sel09.testAnchorTag">
+  <component name="RunManager" selected="TestNG.katalon_Challenge.test_Login">
     <configuration name="Sel09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Selenium.Sel09" />
       <module name="SeleniumPractice" />
@@ -79,24 +79,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sel08.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.Selenium" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Selenium.Sel08" />
-      <option name="METHOD_NAME" value="testLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,6 +119,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="katalon_Challenge.test_Login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.Selenium" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Selenium.katalon_Challenge" />
+      <option name="METHOD_NAME" value="test_Login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="miniChalenge.testChallenge" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
       <extension name="coverage">
@@ -157,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.katalon_Challenge.test_Login" />
         <item itemvalue="TestNG.Sel09.testAnchorTag" />
         <item itemvalue="TestNG.Sel09.testmethod" />
         <item itemvalue="Application.Sel09" />
         <item itemvalue="TestNG.miniChalenge.testChallenge" />
-        <item itemvalue="TestNG.Sel08.testLogin" />
       </list>
     </recent_temporary>
   </component>
