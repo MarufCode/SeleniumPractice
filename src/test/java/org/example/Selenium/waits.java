@@ -43,12 +43,12 @@ public class waits {
         driver.findElement(By.id("js-login-btn")).click();
 
         // Explicit Wait
-//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10000));
-//        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("[data-qa=\"lufexuloga\"]")));
-//        WebElement loggedIn_username = driver.findElement(By.cssSelector("[data-qa=\"lufexuloga\"]"));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10000));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("[data-qa=\"lufexuloga\"]")));
+        WebElement loggedIn_username = driver.findElement(By.cssSelector("[data-qa=\"lufexuloga\"]"));
 
 
-//        System.out.println("LoggedIn Username will be printed" + loggedIn_username.getText());
+        System.out.println("LoggedIn Username will be printed" + loggedIn_username.getText());
 
 
 
