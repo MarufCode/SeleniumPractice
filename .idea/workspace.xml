@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ff72820-346c-4a0b-ac46-4f7b4da0ea7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Selenium/katalon_App_Challenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Selenium/BTandATExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Selenium/ebay_App_Challenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Selenium/waits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-ebay_app_challenge.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,50 +61,39 @@
     "JUnit.AppTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/SeleniumPractice/testng-ebay_app_challenge.xml.executor": "Run",
     "TestNG.Sel02.testMethod.executor": "Run",
     "TestNG.Sel08.testLogin.executor": "Run",
     "TestNG.Sel09.testAnchorTag.executor": "Run",
     "TestNG.Sel09.testmethod.executor": "Run",
     "TestNG.TC02.vwoLogin.executor": "Run",
+    "TestNG.ebay_App_Challenge.testPrintAllTitleOfSearchResult.executor": "Run",
     "TestNG.katalon_Challenge.test_Login.executor": "Run",
     "TestNG.miniChalenge.testChallenge.executor": "Run",
+    "TestNG.waits.testPrintAllTitleOfSearchResult.executor": "Run",
+    "TestNG.waits.testWaitsInSelenium.executor": "Run",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/SeleniumPractice"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.katalon_Challenge.test_Login">
-    <configuration name="Sel09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Selenium.Sel09" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Maruf.sherikar.EXT.SVKMGRP\IdeaProjects\SeleniumPractice" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.waits.testWaitsInSelenium">
+    <configuration name="C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/SeleniumPractice/testng-ebay_app_challenge.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sel09.testAnchorTag" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.Selenium" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Selenium.Sel09" />
-      <option name="METHOD_NAME" value="testAnchorTag" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-ebay_app_challenge.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sel09.testmethod" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ebay_App_Challenge.testPrintAllTitleOfSearchResult" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +102,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.Selenium" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Selenium.Sel09" />
-      <option name="METHOD_NAME" value="testmethod" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Selenium.ebay_App_Challenge" />
+      <option name="METHOD_NAME" value="testPrintAllTitleOfSearchResult" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -137,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="miniChalenge.testChallenge" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="waits.testPrintAllTitleOfSearchResult" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
       <extension name="coverage">
         <pattern>
@@ -146,8 +138,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.Selenium" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Selenium.miniChalenge" />
-      <option name="METHOD_NAME" value="testChallenge" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Selenium.waits" />
+      <option name="METHOD_NAME" value="testPrintAllTitleOfSearchResult" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="waits.testWaitsInSelenium" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.Selenium" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Selenium.waits" />
+      <option name="METHOD_NAME" value="testWaitsInSelenium" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -157,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.waits.testWaitsInSelenium" />
+        <item itemvalue="TestNG.waits.testPrintAllTitleOfSearchResult" />
+        <item itemvalue="TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/SeleniumPractice/testng-ebay_app_challenge.xml" />
+        <item itemvalue="TestNG.ebay_App_Challenge.testPrintAllTitleOfSearchResult" />
         <item itemvalue="TestNG.katalon_Challenge.test_Login" />
-        <item itemvalue="TestNG.Sel09.testAnchorTag" />
-        <item itemvalue="TestNG.Sel09.testmethod" />
-        <item itemvalue="Application.Sel09" />
-        <item itemvalue="TestNG.miniChalenge.testChallenge" />
       </list>
     </recent_temporary>
   </component>
