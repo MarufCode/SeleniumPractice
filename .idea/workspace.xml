@@ -54,6 +54,7 @@
     "Application.TC01.executor": "Run",
     "JUnit.AppTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/SeleniumPractice/testng-ebay_app_challenge.xml.executor": "Run",
     "TestNG.Sel02.testMethod.executor": "Run",
@@ -75,29 +76,22 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Maruf.sherikar.EXT.SVKMGRP\IdeaProjects\SeleniumPractice" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.Dropdown" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.waits.testWaitsInSelenium">
-    <configuration name="C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/SeleniumPractice/testng-ebay_app_challenge.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumPractice" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-ebay_app_challenge.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ebay_App_Challenge.testPrintAllTitleOfSearchResult" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.checkboxes.testPositive">
+    <configuration name="ALerts.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Selenium.*" />
+          <option name="PATTERN" value="org.example.Dropdown.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Selenium" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Selenium.ebay_App_Challenge" />
-      <option name="METHOD_NAME" value="testPrintAllTitleOfSearchResult" />
+      <option name="PACKAGE_NAME" value="org.example.Dropdown" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Dropdown.ALerts" />
+      <option name="METHOD_NAME" value="testPositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -105,17 +99,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="katalon_Challenge.test_Login" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PopUp.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Selenium.*" />
+          <option name="PATTERN" value="org.example.Dropdown.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Selenium" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Selenium.katalon_Challenge" />
-      <option name="METHOD_NAME" value="test_Login" />
+      <option name="PACKAGE_NAME" value="org.example.Dropdown" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Dropdown.PopUp" />
+      <option name="METHOD_NAME" value="testPositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -123,17 +117,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="waits.testPrintAllTitleOfSearchResult" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Static_Select_Box.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Selenium.*" />
+          <option name="PATTERN" value="org.example.Dropdown.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Selenium" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Selenium.waits" />
-      <option name="METHOD_NAME" value="testPrintAllTitleOfSearchResult" />
+      <option name="PACKAGE_NAME" value="org.example.Dropdown" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Dropdown.Static_Select_Box" />
+      <option name="METHOD_NAME" value="testPositive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkboxes.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Dropdown.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.Dropdown" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Dropdown.checkboxes" />
+      <option name="METHOD_NAME" value="testPositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -161,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.checkboxes.testPositive" />
+        <item itemvalue="TestNG.PopUp.testPositive" />
+        <item itemvalue="TestNG.ALerts.testPositive" />
+        <item itemvalue="TestNG.Static_Select_Box.testPositive" />
         <item itemvalue="TestNG.waits.testWaitsInSelenium" />
-        <item itemvalue="TestNG.waits.testPrintAllTitleOfSearchResult" />
-        <item itemvalue="TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/SeleniumPractice/testng-ebay_app_challenge.xml" />
-        <item itemvalue="TestNG.ebay_App_Challenge.testPrintAllTitleOfSearchResult" />
-        <item itemvalue="TestNG.katalon_Challenge.test_Login" />
       </list>
     </recent_temporary>
   </component>
