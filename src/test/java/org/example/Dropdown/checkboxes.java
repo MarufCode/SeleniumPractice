@@ -43,8 +43,7 @@ public class checkboxes {
 
 
 
-
-               Thread.sleep(5000);
+        Thread.sleep(5000);
 
 //
 
