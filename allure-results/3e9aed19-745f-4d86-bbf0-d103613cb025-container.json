@@ -1,0 +1,1 @@
+{"uuid":"3e9aed19-745f-4d86-bbf0-d103613cb025","name":"SeleniumPractice","children":["3a205dbe-653f-4cd3-9e7e-1dfc1ec5c2ba"],"befores":[{"name":"openBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1764054610989,"stop":1764054612087}],"afters":[],"start":1764054610974,"stop":1764054614349}
