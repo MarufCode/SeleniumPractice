@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ff72820-346c-4a0b-ac46-4f7b4da0ea7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SVG/flipkart_search_button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SVG/mcharts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ActionClass/MMT_Challenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ActionClass/app_vwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ActionClass/clicking_shift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ActionClass/right_click.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ActionClass/spicejet_challenge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SVG/mcharts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SVG/amcharts.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,16 +65,21 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/SeleniumPractice/testng-ebay_app_challenge.xml.executor": "Run",
+    "TestNG.MMT_Challenge.testPositive.executor": "Run",
     "TestNG.Sel02.testMethod.executor": "Run",
     "TestNG.Sel08.testLogin.executor": "Run",
     "TestNG.Sel09.testAnchorTag.executor": "Run",
     "TestNG.Sel09.testmethod.executor": "Run",
     "TestNG.TC02.vwoLogin.executor": "Run",
+    "TestNG.app_vwo.testPositive.executor": "Run",
+    "TestNG.clicking_shift.testPositive.executor": "Run",
     "TestNG.ebay_App_Challenge.testPrintAllTitleOfSearchResult.executor": "Run",
     "TestNG.flipkart_search_button.testPositive.executor": "Run",
     "TestNG.katalon_Challenge.test_Login.executor": "Run",
     "TestNG.mcharts.testPositive.executor": "Run",
     "TestNG.miniChalenge.testChallenge.executor": "Run",
+    "TestNG.right_click.testPositive.executor": "Run",
+    "TestNG.spicejet_challenge.testPositive.executor": "Run",
     "TestNG.waits.testPrintAllTitleOfSearchResult.executor": "Run",
     "TestNG.waits.testWaitsInSelenium.executor": "Run",
     "git-widget-placeholder": "main",
@@ -83,21 +92,22 @@
       <recent name="C:\Users\Maruf.sherikar.EXT.SVKMGRP\IdeaProjects\SeleniumPractice" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ActionClass" />
       <recent name="org.example.SVG" />
       <recent name="org.example.Dropdown" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.mcharts.testPositive">
-    <configuration name="checkboxes.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.app_vwo.testPositive">
+    <configuration name="MMT_Challenge.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Dropdown.*" />
+          <option name="PATTERN" value="ActionClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Dropdown" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Dropdown.checkboxes" />
+      <option name="PACKAGE_NAME" value="ActionClass" />
+      <option name="MAIN_CLASS_NAME" value="ActionClass.MMT_Challenge" />
       <option name="METHOD_NAME" value="testPositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -106,16 +116,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="flipkart_search_button.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="app_vwo.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.SVG.*" />
+          <option name="PATTERN" value="ActionClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.SVG" />
-      <option name="MAIN_CLASS_NAME" value="org.example.SVG.flipkart_search_button" />
+      <option name="PACKAGE_NAME" value="ActionClass" />
+      <option name="MAIN_CLASS_NAME" value="ActionClass.app_vwo" />
       <option name="METHOD_NAME" value="testPositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -124,16 +134,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mcharts.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="clicking_shift.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.SVG.*" />
+          <option name="PATTERN" value="ActionClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.SVG" />
-      <option name="MAIN_CLASS_NAME" value="org.example.SVG.mcharts" />
+      <option name="PACKAGE_NAME" value="ActionClass" />
+      <option name="MAIN_CLASS_NAME" value="ActionClass.clicking_shift" />
       <option name="METHOD_NAME" value="testPositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -142,16 +152,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mini_project_scenario_katalon.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="right_click.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Dropdown.*" />
+          <option name="PATTERN" value="ActionClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Dropdown" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Dropdown.mini_project_scenario_katalon" />
+      <option name="PACKAGE_NAME" value="ActionClass" />
+      <option name="MAIN_CLASS_NAME" value="ActionClass.right_click" />
       <option name="METHOD_NAME" value="testPositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -160,16 +170,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="webtables.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="spicejet_challenge.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Dropdown.*" />
+          <option name="PATTERN" value="ActionClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Dropdown" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Dropdown.webtables" />
+      <option name="PACKAGE_NAME" value="ActionClass" />
+      <option name="MAIN_CLASS_NAME" value="ActionClass.spicejet_challenge" />
       <option name="METHOD_NAME" value="testPositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -180,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.mcharts.testPositive" />
-        <item itemvalue="TestNG.flipkart_search_button.testPositive" />
-        <item itemvalue="TestNG.mini_project_scenario_katalon.testPositive" />
-        <item itemvalue="TestNG.webtables.testPositive" />
-        <item itemvalue="TestNG.checkboxes.testPositive" />
+        <item itemvalue="TestNG.app_vwo.testPositive" />
+        <item itemvalue="TestNG.MMT_Challenge.testPositive" />
+        <item itemvalue="TestNG.spicejet_challenge.testPositive" />
+        <item itemvalue="TestNG.right_click.testPositive" />
+        <item itemvalue="TestNG.clicking_shift.testPositive" />
       </list>
     </recent_temporary>
   </component>

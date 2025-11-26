@@ -1,11 +1,8 @@
-package org.example.SVG;
+package ActionClass;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
-import org.openqa.selenium.By;
-import org.openqa.selenium.PageLoadStrategy;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.interactions.Actions;
@@ -13,9 +10,9 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import java.util.List;
+public class right_click {
 
-public class mcharts {
+
     WebDriver driver;
 
     @BeforeTest
@@ -31,19 +28,25 @@ public class mcharts {
     @Description
     @Owner("Maruf")
     public void testPositive() throws InterruptedException {
-        driver.get("https://www.amcharts.com/svg-maps/?map=india");
+        driver.get("https://awesomeqa.com/practice.html");
         driver.manage().window().maximize();
-//        Actions actions = new Actions(driver);
 
-        List<WebElement> states = driver.findElements(By.xpath("//*[name()='svg']/*[name()='g'][7]/*[name()='g']//*[name()='path']"));
 
-        for (WebElement state: states) {
-            System.out.println(state.getAttribute("aria-label"));
-            if (state.getAttribute("aria-label").contains("Tripura")){
-//                actions.moveToElement(state).click().perform();
-                state.click();
-            }
-        }
+//        Shift Keydown -> MARUF + Keydown
+        WebElement firstName = driver.findElement(By.name("firstname"));
+
+        Actions actions = new Actions(driver);
+        actions
+                .keyDown(Keys.SHIFT)
+                .sendKeys(firstName, "maruf")
+                .keyUp(Keys.SHIFT)
+                .build().perform();
+
+
+        // Right click by using Context Click
+        WebElement link = driver.findElement(By.xpath("//a[contains(text(), 'Click here to Download File')]"));
+        actions.contextClick(link).build().perform();
+
 
         Thread.sleep(3000);
     }
@@ -52,5 +55,4 @@ public class mcharts {
     public void closeBrowser(){
         driver.quit();
     }
-
 }
