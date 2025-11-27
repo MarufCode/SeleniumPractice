@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ff72820-346c-4a0b-ac46-4f7b4da0ea7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ActionClass/MMT_Challenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ActionClass/app_vwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ActionClass/clicking_shift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ActionClass/right_click.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ActionClass/spicejet_challenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ActionClass/draganddrop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ActionClass/to_Upload.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WindowHandles/windowhandlingScenario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SVG/mcharts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SVG/amcharts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ActionClass/app_vwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ActionClass/scrollUPDown.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,15 +71,18 @@
     "TestNG.TC02.vwoLogin.executor": "Run",
     "TestNG.app_vwo.testPositive.executor": "Run",
     "TestNG.clicking_shift.testPositive.executor": "Run",
+    "TestNG.draganddrop.testPositive.executor": "Run",
     "TestNG.ebay_App_Challenge.testPrintAllTitleOfSearchResult.executor": "Run",
     "TestNG.flipkart_search_button.testPositive.executor": "Run",
     "TestNG.katalon_Challenge.test_Login.executor": "Run",
     "TestNG.mcharts.testPositive.executor": "Run",
     "TestNG.miniChalenge.testChallenge.executor": "Run",
     "TestNG.right_click.testPositive.executor": "Run",
+    "TestNG.scrollUPDown.testPositive.executor": "Run",
     "TestNG.spicejet_challenge.testPositive.executor": "Run",
     "TestNG.waits.testPrintAllTitleOfSearchResult.executor": "Run",
     "TestNG.waits.testWaitsInSelenium.executor": "Run",
+    "TestNG.windowhandlingScenario.testPositive.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/SeleniumPractice"
@@ -92,12 +93,13 @@
       <recent name="C:\Users\Maruf.sherikar.EXT.SVKMGRP\IdeaProjects\SeleniumPractice" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="WindowHandling" />
       <recent name="ActionClass" />
       <recent name="org.example.SVG" />
       <recent name="org.example.Dropdown" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.app_vwo.testPositive">
+  <component name="RunManager" selected="TestNG.windowhandlingScenario.testPositive">
     <configuration name="MMT_Challenge.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
       <extension name="coverage">
@@ -116,7 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app_vwo.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="draganddrop.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
       <extension name="coverage">
         <pattern>
@@ -125,7 +127,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ActionClass" />
-      <option name="MAIN_CLASS_NAME" value="ActionClass.app_vwo" />
+      <option name="MAIN_CLASS_NAME" value="ActionClass.draganddrop" />
       <option name="METHOD_NAME" value="testPositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -134,7 +136,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="clicking_shift.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="scrollUPDown.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
       <extension name="coverage">
         <pattern>
@@ -143,25 +145,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ActionClass" />
-      <option name="MAIN_CLASS_NAME" value="ActionClass.clicking_shift" />
-      <option name="METHOD_NAME" value="testPositive" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="right_click.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ActionClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ActionClass" />
-      <option name="MAIN_CLASS_NAME" value="ActionClass.right_click" />
+      <option name="MAIN_CLASS_NAME" value="ActionClass.scrollUPDown" />
       <option name="METHOD_NAME" value="testPositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -188,13 +172,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="windowhandlingScenario.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WindowHandles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WindowHandling" />
+      <option name="MAIN_CLASS_NAME" value="WindowHandles.windowhandlingScenario" />
+      <option name="METHOD_NAME" value="testPositive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.app_vwo.testPositive" />
+        <item itemvalue="TestNG.windowhandlingScenario.testPositive" />
+        <item itemvalue="TestNG.draganddrop.testPositive" />
+        <item itemvalue="TestNG.scrollUPDown.testPositive" />
         <item itemvalue="TestNG.MMT_Challenge.testPositive" />
         <item itemvalue="TestNG.spicejet_challenge.testPositive" />
-        <item itemvalue="TestNG.right_click.testPositive" />
-        <item itemvalue="TestNG.clicking_shift.testPositive" />
       </list>
     </recent_temporary>
   </component>
