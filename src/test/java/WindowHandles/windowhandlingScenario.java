@@ -34,7 +34,7 @@ public class windowhandlingScenario {
     public void testPositive() throws InterruptedException {
         String URL = "https://the-internet.herokuapp.com/windows";
         driver.get(URL);
-//        driver.manage().window().maximize();
+        driver.manage().window().maximize();
 
 
         String mainWindowHandle = driver.getWindowHandle();
@@ -54,8 +54,27 @@ public class windowhandlingScenario {
         }
 
         driver.switchTo().window(mainWindowHandle);
-//        driver.quit();
+        driver.quit();
         Thread.sleep(3000);
+
+
+
+
+//        String mainWindowHandle = driver.getWindowHandle();
+//
+//        driver.findElement(By.linkText("Click Here")).click();
+//
+//        Set<String> windowHandles = driver.getWindowHandles();
+//        for (String handle: windowHandles){
+//            driver.switchTo().window(handle);
+//            if (driver.getPageSource().contains("New Window")){
+//                System.out.println("TC is Passed");
+//            }
+//
+//        }
+//        driver.switchTo().window(mainWindowHandle);
+
+
 
     }
 
