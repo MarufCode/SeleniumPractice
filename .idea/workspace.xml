@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ff72820-346c-4a0b-ac46-4f7b4da0ea7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/RelativeLocators/lab01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RelativeLocators/lab02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumException/NoSuchElementException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumException/StaleElementException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/iFrame/lab01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +74,7 @@
     "TestNG.ebay_App_Challenge.testPrintAllTitleOfSearchResult.executor": "Run",
     "TestNG.flipkart_search_button.testPositive.executor": "Run",
     "TestNG.katalon_Challenge.test_Login.executor": "Run",
+    "TestNG.lab01.testPositive (1).executor": "Run",
     "TestNG.lab01.testPositive.executor": "Run",
     "TestNG.lab02.testPositive.executor": "Run",
     "TestNG.mcharts.testPositive.executor": "Run",
@@ -93,24 +95,42 @@
       <recent name="C:\Users\Maruf.sherikar.EXT.SVKMGRP\IdeaProjects\SeleniumPractice" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="SeleniumException" />
+      <recent name="iFrame" />
       <recent name="RelativeLocators" />
       <recent name="WindowHandling" />
       <recent name="ActionClass" />
-      <recent name="org.example.SVG" />
-      <recent name="org.example.Dropdown" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.lab02.testPositive">
-    <configuration name="draganddrop.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.StaleElementException.testPositive">
+    <configuration name="StaleElementException.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ActionClass.*" />
+          <option name="PATTERN" value="SeleniumException.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ActionClass" />
-      <option name="MAIN_CLASS_NAME" value="ActionClass.draganddrop" />
+      <option name="PACKAGE_NAME" value="SeleniumException" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumException.StaleElementException" />
+      <option name="METHOD_NAME" value="testPositive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab01.testPositive (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iFrame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="iFrame" />
+      <option name="MAIN_CLASS_NAME" value="iFrame.lab01" />
       <option name="METHOD_NAME" value="testPositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -155,24 +175,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="scrollUPDown.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ActionClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ActionClass" />
-      <option name="MAIN_CLASS_NAME" value="ActionClass.scrollUPDown" />
-      <option name="METHOD_NAME" value="testPositive" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="windowhandlingScenario.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
       <extension name="coverage">
@@ -193,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.StaleElementException.testPositive" />
+        <item itemvalue="TestNG.lab01.testPositive (1)" />
         <item itemvalue="TestNG.lab02.testPositive" />
         <item itemvalue="TestNG.lab01.testPositive" />
         <item itemvalue="TestNG.windowhandlingScenario.testPositive" />
-        <item itemvalue="TestNG.draganddrop.testPositive" />
-        <item itemvalue="TestNG.scrollUPDown.testPositive" />
       </list>
     </recent_temporary>
   </component>
