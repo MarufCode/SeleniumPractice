@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ff72820-346c-4a0b-ac46-4f7b4da0ea7d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/RelativeLocators/lab01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RelativeLocators/lab02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WindowHandles/windowhandlingScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WindowHandles/windowhandlingScenario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,75 +47,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Sel01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sel04.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sel05.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sel07.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sel08.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sel09.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TC01.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppTest.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/SeleniumPractice/testng-ebay_app_challenge.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.MMT_Challenge.testPositive.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel02.testMethod.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel08.testLogin.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel09.testAnchorTag.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Sel09.testmethod.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TC02.vwoLogin.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.app_vwo.testPositive.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.clicking_shift.testPositive.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.draganddrop.testPositive.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ebay_App_Challenge.testPrintAllTitleOfSearchResult.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.flipkart_search_button.testPositive.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.katalon_Challenge.test_Login.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.mcharts.testPositive.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.miniChalenge.testChallenge.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.right_click.testPositive.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.scrollUPDown.testPositive.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.spicejet_challenge.testPositive.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.waits.testPrintAllTitleOfSearchResult.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.waits.testWaitsInSelenium.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.windowhandlingScenario.testPositive.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/SeleniumPractice&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Sel01.executor": "Run",
+    "Application.Sel04.executor": "Run",
+    "Application.Sel05.executor": "Run",
+    "Application.Sel07.executor": "Run",
+    "Application.Sel08.executor": "Run",
+    "Application.Sel09.executor": "Run",
+    "Application.TC01.executor": "Run",
+    "JUnit.AppTest.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/SeleniumPractice/testng-ebay_app_challenge.xml.executor": "Run",
+    "TestNG.MMT_Challenge.testPositive.executor": "Run",
+    "TestNG.Sel02.testMethod.executor": "Run",
+    "TestNG.Sel08.testLogin.executor": "Run",
+    "TestNG.Sel09.testAnchorTag.executor": "Run",
+    "TestNG.Sel09.testmethod.executor": "Run",
+    "TestNG.TC02.vwoLogin.executor": "Run",
+    "TestNG.app_vwo.testPositive.executor": "Run",
+    "TestNG.clicking_shift.testPositive.executor": "Run",
+    "TestNG.draganddrop.testPositive.executor": "Run",
+    "TestNG.ebay_App_Challenge.testPrintAllTitleOfSearchResult.executor": "Run",
+    "TestNG.flipkart_search_button.testPositive.executor": "Run",
+    "TestNG.katalon_Challenge.test_Login.executor": "Run",
+    "TestNG.lab01.testPositive.executor": "Run",
+    "TestNG.lab02.testPositive.executor": "Run",
+    "TestNG.mcharts.testPositive.executor": "Run",
+    "TestNG.miniChalenge.testChallenge.executor": "Run",
+    "TestNG.right_click.testPositive.executor": "Run",
+    "TestNG.scrollUPDown.testPositive.executor": "Run",
+    "TestNG.spicejet_challenge.testPositive.executor": "Run",
+    "TestNG.waits.testPrintAllTitleOfSearchResult.executor": "Run",
+    "TestNG.waits.testWaitsInSelenium.executor": "Run",
+    "TestNG.windowhandlingScenario.testPositive.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/SeleniumPractice"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Maruf.sherikar.EXT.SVKMGRP\IdeaProjects\SeleniumPractice" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="RelativeLocators" />
       <recent name="WindowHandling" />
       <recent name="ActionClass" />
       <recent name="org.example.SVG" />
       <recent name="org.example.Dropdown" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.windowhandlingScenario.testPositive">
-    <configuration name="MMT_Challenge.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ActionClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ActionClass" />
-      <option name="MAIN_CLASS_NAME" value="ActionClass.MMT_Challenge" />
-      <option name="METHOD_NAME" value="testPositive" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.lab02.testPositive">
     <configuration name="draganddrop.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
       <extension name="coverage">
@@ -133,6 +119,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lab01.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RelativeLocators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RelativeLocators" />
+      <option name="MAIN_CLASS_NAME" value="RelativeLocators.lab01" />
+      <option name="METHOD_NAME" value="testPositive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab02.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RelativeLocators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RelativeLocators" />
+      <option name="MAIN_CLASS_NAME" value="RelativeLocators.lab02" />
+      <option name="METHOD_NAME" value="testPositive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="scrollUPDown.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
       <extension name="coverage">
@@ -143,24 +165,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="ActionClass" />
       <option name="MAIN_CLASS_NAME" value="ActionClass.scrollUPDown" />
-      <option name="METHOD_NAME" value="testPositive" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="spicejet_challenge.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ActionClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ActionClass" />
-      <option name="MAIN_CLASS_NAME" value="ActionClass.spicejet_challenge" />
       <option name="METHOD_NAME" value="testPositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -189,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.lab02.testPositive" />
+        <item itemvalue="TestNG.lab01.testPositive" />
         <item itemvalue="TestNG.windowhandlingScenario.testPositive" />
         <item itemvalue="TestNG.draganddrop.testPositive" />
         <item itemvalue="TestNG.scrollUPDown.testPositive" />
-        <item itemvalue="TestNG.MMT_Challenge.testPositive" />
-        <item itemvalue="TestNG.spicejet_challenge.testPositive" />
       </list>
     </recent_temporary>
   </component>
